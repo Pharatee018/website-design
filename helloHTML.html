@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello HTML</title>
+    <title>ตัวอย่าง 1-1 โครงสร้างพื้นฐานของ CSS </title>
+    <link rel="stylesheet" href="styletext.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            color: brown; /* เปลี่ยนสีหัวเรื่องใหญ่เป็นสีฟ้า */
+            font-size: 48pt;
+            /* font-size: 24; */
+        }
+        div.myid {
+            color: white;
+            background-color: red;
+            display: block;
+        }
+        p.myp{
+            color: blue;
+            font-size: 16pt;
+        }
+        h2{
+            color: darkgreen;
+            font-size: 400t;
+        }
+        h1#myid{ /* 10*/
+            font-size: 16pt;
+        }
+        .myclass{
+            font-size: 50pt;
+        }
+        div p{ /* 2*/
+            font-size: 300pt;
+            color: blue;
+        }
+        p.myclass{ /* 101 */
+            font-size: 10pt;
+            color: rgb(222, 110, 110);
+        }
+        p{ /* 1 */
+            color: rgb(221, 255, 0);
+            font-size: 50pt;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>ตัวอย่าง 1-1 โครงสร้างพื้นฐานของ CSS</h1>
+    <div class="myclass">
+        <p class="myp">Lorem ipsum dolor sit amet consectetur<span style="background-color: yellow;"> adipisicing elit. Nesciunt, quis assumenda perspiciatis saepe in non consequatur. Reprehenderit quas numquam enim ducimus, debitis, molestias dolor ullam adipisci sint ea blanditiis vitae?</p>
+    </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas magnam dolor ab iure odio minima voluptatum ad soluta! Quis eveniet tempore inventore quidem ullam sequi labore eum ipsum atque quibusdam?</p>
+        <h2 style="font-size: 26pt; font-weight: bold;">การใช้งาน External Style</h2>
+    <div>
+        <h3> ข้อความ Tag H3 </h3>
+    </div>    
 </body>
 </html>
